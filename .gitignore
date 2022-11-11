@@ -1,0 +1,9 @@
+**/bin
+**/StarterContent/
+**/.vs/
+**/.vscode/
+**/Binaries/
+**/Intermediate/
+**/obj
+**/Logs
+**/logs
