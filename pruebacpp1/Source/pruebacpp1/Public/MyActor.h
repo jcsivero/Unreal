@@ -36,7 +36,7 @@ public:
 	UClass * instanciateUClass;
 	
 	UPROPERTY(EditAnyWhere,Blueprintreadwrite)	
-	TArray<AActor *> actors_;
+	TArray<AActor*> actors_;
 
 public:	
 	// Sets default values for this actor's properties

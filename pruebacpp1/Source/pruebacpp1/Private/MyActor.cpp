@@ -103,7 +103,7 @@ void AMyActor::BeginPlay()
 			
 	}*/
 
-	FindAllActors(GetWorld(),actors_);
+	FindAllActors<AActor>(GetWorld(),actors_);
 	ShowAllActors<AActor>(actors_);
 	
 
@@ -134,10 +134,10 @@ void AMyActor::ShowAllActors(TArray<T*>  &draft)
 {
 	for (int i=0; i < draft.Num(); i++)
 	{
-		/*UE_LOG(LogTemp,Warning,TEXT("Nombre ID Objeto %s"),*draft[i]->GetName());
+		UE_LOG(LogTemp,Warning,TEXT("Nombre ID Objeto %s"),*draft[i]->GetName());
 		UE_LOG(LogTemp,Warning,TEXT("Nombre DisplayName Objeto %s"),*draft[i]->GetActorNameOrLabel());
-		UE_LOG(LogTemp,Warning,TEXT("Nombre Clase Objeto %s"),*draft[i]->GetClass());
-		UE_LOG(LogTemp,Warning,TEXT("Nombre Uclass or UBlueprintGeneratedClass %s"),*draft[i]->GetClass().GetClass());
-*/
+		UE_LOG(LogTemp,Warning,TEXT("Nombre Clase Objeto %s"),*draft[i]->GetClass()->GetName());
+		UE_LOG(LogTemp,Warning,TEXT("Nombre Uclass or UBlueprintGeneratedClass %s"),*draft[i]->GetClass()->GetClass()->GetName());
+
 	}
 }
