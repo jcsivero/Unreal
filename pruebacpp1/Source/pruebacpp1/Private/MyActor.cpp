@@ -6,6 +6,7 @@
 #include "Templates/SubclassOf.h"
 #include "EngineUtils.h"
 #include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AMyActor::AMyActor()
@@ -103,10 +104,24 @@ void AMyActor::BeginPlay()
 			
 	}*/
 
-	FindAllActors<AActor>(GetWorld(),actors_);
+	//FindAllActors<AActor>(GetWorld(),actors_);
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(),AActor::StaticClass(),actors_);
 	ShowAllActors<AActor>(actors_);
 	
+	/*AActor* myActor = FindObject<AActor>(nullptr, TEXT("/Script/Engine.Blueprint'/Game/BluePrints/BP_MyCharacter.BP_MyCharacter'"));
+	if (myActor!= nullptr)
+	{
+		UE_LOG(LogTemp,Warning,TEXT("Encontrado %s"),*myActor->GetActorNameOrLabel());
+		UE_LOG(LogTemp,Warning,TEXT("Encontrado %s"),*myActor->GetName());
+	}
+		
+	else
+		{
+			UE_LOG(LogTemp,Warning,TEXT("No Encontrado"));
+		}*/
 
+	
+		
 } 
 
 // Called every frame
@@ -123,7 +138,8 @@ void AMyActor::FindAllActors(UWorld* World, TArray<T*>& Out)
 	if (!Out.IsEmpty())
 		Out.Empty(); //si no está vacío, vacio el array
 	
-	for (TActorIterator<T> It(World); It; ++It)
+	
+	for (TObjectIterator<T> It; It; ++It)
 	{
 		Out.Add(*It);
 	}
@@ -134,6 +150,7 @@ void AMyActor::ShowAllActors(TArray<T*>  &draft)
 {
 	for (int i=0; i < draft.Num(); i++)
 	{
+		UE_LOG(LogTemp,Warning,TEXT("------------------------------------------------------------------------- %d"),i);
 		UE_LOG(LogTemp,Warning,TEXT("Nombre ID Objeto %s"),*draft[i]->GetName());
 		UE_LOG(LogTemp,Warning,TEXT("Nombre DisplayName Objeto %s"),*draft[i]->GetActorNameOrLabel());
 		UE_LOG(LogTemp,Warning,TEXT("Nombre Clase Objeto %s"),*draft[i]->GetClass()->GetName());
