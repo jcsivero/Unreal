@@ -1,0 +1,1476 @@
+﻿Log file open, 11/29/22 13:56:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=12036)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Animacion3d
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:/git/Unreal/Animacion3d/Animacion3d.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.2251] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="0fe76681404bdebf664d73bc5e7634de"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.519346
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-FE2B889848C0EE92D72E8085E755EFA5
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogConfig: Display: Loading HoloLens ini files took 0.10 seconds
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogConfig: Display: Loading IOS ini files took 0.23 seconds
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogConfig: Display: Loading Linux ini files took 0.20 seconds
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) [10.0.19044.2251] (), CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz, GPU: NVIDIA GeForce GTX 550 Ti
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2022.11.29-13.56.52:917][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.11.29-13.56.52:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.11.29-13.56.52:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.11.29-13.56.52:918][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.11.29-13.56.52:922][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.11.29-13.56.52:953][  0]LogD3D12RHI: Aftermath initialized
+[2022.11.29-13.56.52:953][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.11.29-13.56.53:095][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 550 Ti (Max supported Feature Level 11_0, shader model 5.1)
+[2022.11.29-13.56.53:096][  0]LogD3D12RHI: Adapter has 959MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 2 output[s]
+[2022.11.29-13.56.53:138][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.11.29-13.56.53:138][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8160MB of shared system memory, 0 output[s]
+[2022.11.29-13.56.53:138][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.11.29-13.56.53:140][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.11.29-13.56.53:140][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.11.29-13.56.53:140][  0]LogHAL: Display: Platform has ~ 16 GB [17114742784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.29-13.56.53:140][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.11.29-13.56.53:140][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2022.11.29-13.56.53:140][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2022.11.29-13.56.53:140][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.29-13.56.53:142][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.11.29-13.56.53:142][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/git/Unreal/Animacion3d/Saved/Config/WindowsEditor/Editor.ini]
+[2022.11.29-13.56.53:142][  0]LogInit: Computer: SAT-PC03
+[2022.11.29-13.56.53:142][  0]LogInit: User: JuanSiverio
+[2022.11.29-13.56.53:142][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.11.29-13.56.53:142][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.29-13.56.53:142][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.11.29-13.56.53:142][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.11.29-13.56.53:142][  0]LogMemory: Process Physical Memory: 241.95 MB used, 245.70 MB peak
+[2022.11.29-13.56.53:143][  0]LogMemory: Process Virtual Memory: 178.02 MB used, 178.02 MB peak
+[2022.11.29-13.56.53:143][  0]LogMemory: Physical Memory: 7251.63 MB used,  9070.26 MB free, 16321.89 MB total
+[2022.11.29-13.56.53:143][  0]LogMemory: Virtual Memory: 7793.17 MB used,  21840.72 MB free, 29633.89 MB total
+[2022.11.29-13.56.53:143][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.11.29-13.56.53:150][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.29-13.56.53:167][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.11.29-13.56.53:168][  0]LogInit: Overriding language with editor language configuration option (en).
+[2022.11.29-13.56.53:168][  0]LogInit: Overriding language with editor locale configuration option (en).
+[2022.11.29-13.56.53:533][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.29-13.56.53:547][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.11.29-13.56.53:547][  0]LogWindowsTextInputMethodSystem:   - Español (España, internacional) - (Keyboard).
+[2022.11.29-13.56.53:547][  0]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2022.11.29-13.56.53:563][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.29-13.56.53:563][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading Mac ini files took 1.38 seconds
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading LinuxArm64 ini files took 1.42 seconds
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2022.11.29-13.56.53:793][  0]LogConfig: Display: Loading Windows ini files took 0.07 seconds
+[2022.11.29-13.56.53:793][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.11.29-13.56.53:797][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping failed to initialize (bad0000c)
+[2022.11.29-13.56.53:797][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.11.29-13.56.53:942][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is not supported
+[2022.11.29-13.56.54:033][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.11.29-13.56.54:042][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.11.29-13.56.54:065][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.11.29-13.56.54:084][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.11.29-13.56.54:084][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.11.29-13.56.54:138][  0]LogD3D12RHI:     GPU DeviceId: 0x1244 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.29-13.56.54:139][  0]LogWindows: Attached monitors:
+[2022.11.29-13.56.54:139][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1040), device: '\\.\DISPLAY1'
+[2022.11.29-13.56.54:139][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY2' [PRIMARY]
+[2022.11.29-13.56.54:139][  0]LogWindows: Found 2 attached monitors.
+[2022.11.29-13.56.54:139][  0]LogWindows: EnumDisplayDevices:
+[2022.11.29-13.56.54:139][  0]LogWindows:    0. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1), name: '\\.\DISPLAY1'
+[2022.11.29-13.56.54:139][  0]LogWindows:    1. 'NVIDIA GeForce GTX 550 Ti' (P:1 D:1), name: '\\.\DISPLAY2'
+[2022.11.29-13.56.54:139][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2022.11.29-13.56.54:139][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 550 Ti
+[2022.11.29-13.56.54:139][  0]LogD3D12RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2022.11.29-13.56.54:139][  0]LogD3D12RHI:      Driver Date: 3-23-2018
+[2022.11.29-13.56.54:139][  0]LogRHI: Texture pool is 513 MB (70% of 733 MB)
+[2022.11.29-13.56.54:139][  0]LogD3D12RHI: Async texture creation enabled
+[2022.11.29-13.56.54:139][  0]LogD3D12RHI: RHI does not have support for 64 bit atomics
+[2022.11.29-13.56.54:162][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.11.29-13.56.56:379][  0]Message dialog closed, result: Ok, title: WARNING: Known issues with graphics driver, text: The installed version of the NVIDIA graphics driver has known issues in D3D12.
+Please install either the latest or the recommended driver version or switch to a different rendering API.
+
+https://www.nvidia.com/en-us/geforce/drivers/
+
+NVIDIA GeForce GTX 550 Ti
+Installed: 391.35
+Recommended: 516.25
+[2022.11.29-13.56.56:387][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/git/Unreal/Animacion3d/Animacion3d.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/git/Unreal/Animacion3d/Intermediate/TurnkeyReport_0.log" -log="C:/git/Unreal/Animacion3d/Intermediate/TurnkeyLog_0.log" -project="C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -platform=all'
+[2022.11.29-13.56.56:388][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/git/Unreal/Animacion3d/Animacion3d.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/git/Unreal/Animacion3d/Intermediate/TurnkeyReport_0.log" -log="C:/git/Unreal/Animacion3d/Intermediate/TurnkeyLog_0.log" -project="C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -platform=all" ]
+[2022.11.29-13.56.56:485][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.11.29-13.56.56:498][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.11.29-13.56.56:498][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.29-13.56.56:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.29-13.56.56:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.11.29-13.56.56:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.11.29-13.56.56:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.29-13.56.56:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.29-13.56.56:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.29-13.56.56:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.11.29-13.56.56:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.29-13.56.56:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.29-13.56.56:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.11.29-13.56.56:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.11.29-13.56.56:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.11.29-13.56.56:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.29-13.56.56:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.29-13.56.56:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.29-13.56.56:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.11.29-13.56.56:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.29-13.56.56:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.29-13.56.56:635][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.11.29-13.56.56:645][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.29-13.56.56:648][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.11.29-13.56.56:648][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.11.29-13.56.56:648][  0]LogTargetPlatformManager:   ADPCM
+[2022.11.29-13.56.56:649][  0]LogTargetPlatformManager:   PCM
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager:   BINKA
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager:   OGG
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.11.29-13.56.56:654][  0]LogTargetPlatformManager:   OPUS
+[2022.11.29-13.56.56:733][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.11.29-13.56.56:739][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.11.29-13.56.56:739][  0]LogTargetPlatformManager:   SF_METAL
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.11.29-13.56.56:740][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.11.29-13.56.56:743][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.11.29-13.56.56:743][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.11.29-13.56.56:743][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.11.29-13.56.56:743][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.11.29-13.56.56:744][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.11.29-13.56.56:744][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.11.29-13.56.56:744][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.11.29-13.56.56:744][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.11.29-13.56.56:744][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../git/Unreal/Animacion3d/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.29-13.56.56:750][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.29-13.56.56:750][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../git/Unreal/Animacion3d/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.11.29-13.56.56:752][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.29-13.56.56:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../git/Unreal/Animacion3d/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.29-13.56.56:803][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.11.29-13.56.56:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../git/Unreal/Animacion3d/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.29-13.56.56:803][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.11.29-13.56.56:833][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.11.29-13.56.56:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.29-13.56.56:833][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.11.29-13.56.56:859][  0]LogDerivedDataCache: Speed tests for C:/Users/Juan Siverio.ULL/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2022.11.29-13.56.56:859][  0]LogDerivedDataCache: Display: Performance to C:/Users/Juan Siverio.ULL/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=212.04MBs, RandomWriteSpeed=45.28MBs. Assigned SpeedClass 'Local'
+[2022.11.29-13.56.56:866][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Juan Siverio.ULL/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.29-13.56.56:866][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.29-13.56.56:866][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.11.29-13.56.56:877][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.11.29-13.56.56:877][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.11.29-13.56.56:877][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../git/Unreal/Animacion3d/Intermediate/Shaders/WorkingDirectory/10424/).
+[2022.11.29-13.56.56:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Juan Siverio.ULL/AppData/Local/Temp/UnrealShaderWorkingDir/8E418B604FEBDD4E66607999ED9EA55C/'.
+[2022.11.29-13.56.56:878][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.29-13.56.56:878][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2022.11.29-13.56.59:449][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2022.11.29-13.56.59:449][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.29-13.56.59:450][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.29-13.56.59:527][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2022.11.29-13.56.59:534][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.11.29-13.56.59:797][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.11.29-13.56.59:798][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.11.29-13.57.00:367][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.11.29-13.57.00:368][  0]LogDeviceProfileManager: Active device profile: [00000BDD59765080][00000BDD50AE0000 50] WindowsEditor
+[2022.11.29-13.57.00:368][  0]LogDeviceProfileManager: Profiles: [00000BDD59764B40][00000BDD50AEA000 50] Windows, [00000BDD59765080][00000BDD50AE0000 50] WindowsEditor, [00000BDD59762A00][00000BDD50AE5000 50] WindowsServer, [00000BDD597639C0][00000BDD523DC800 50] WindowsClient, [00000BDD59764440][00000BDD43E57800 50] IOS, [00000BDD597655C0][00000BDD50AE2800 50] iPadAir2, [00000BDD597616C0][00000BDD597F0000 50] IPadPro, [00000BDD59763480][00000BDD597F2800 50] iPadAir3, [00000BDD59763D40][00000BDD597F7800 50] iPadAir4, [00000BDD59760540][00000BDD597FA000 50] iPadMini4, [00000BDD59763B80][00000BDD597FC800 50] iPadMini5, [00000BDD59762BC0][00000BDD50A87800 50] iPadMini6, [00000BDD59768C00][00000BDD597E2800 50] iPhone6S, [00000BDD59768F80][00000BDD597E0000 50] iPhone7, [00000BDD59769300][00000BDD597E5000 50] iPodTouch7, [00000BDD59764600][00000BDD597EA000 50] iPhone6SPlus, [00000BDD59765940][00000BDD597EC800 50] iPhone7Plus, [00000BDD59767540][00000BDD597F5000 50] iPhoneSE, [00000BDD59767A80][00000BDD597E7800 50] iPhone8, [00000BDD59762680][00000BDD59990000 50] iPhone8Plus, [00000BDD59769840][00000BDD59995000 50] iPhoneX, [00000BDD59761340][00000BDD59997800 50] iPhoneXS, [00000BDD59767E00][00000BDD5999A000 50] iPhoneXSMax, [00000BDD59765240][00000BDD5999C800 50] iPhoneXR, [00000BDD597632C0][00000BDD523DA000 50] iPhone11, [00000BDD59760FC0][00000BDD599B0000 50] iPhone11Pro, [00000BDD59766580][00000BDD599B5000 50] iPhone11ProMax, [00000BDD59761880][00000BDD599B7800 50] iPhoneSE2, [00000BDD59760000][00000BDD599BA000 50] iPhone12Mini, [00000BDD597663C0][00000BDD599BC800 50] iPhone12, [00000BDD59766C80][00000BDD59992800 50] iPhone12Pro, [00000BDD59761F80][00000BDD599C0000 50] iPhone12ProMax, [00000BDD59769680][00000BDD599C5000 50] iPhone13Mini, [00000BDD59765CC0][00000BDD599C7800 50] iPhone13, [00000BDD59768DC0][00000BDD599CA000 50] iPhone13Pro, [00000BDD59769140][00000BDD599CC800 50] iPhone13ProMax, [00000BDD59764280][00000BDD599B2800 50] iPadPro105, [00000BDD59763800][00000BDD599D0000 50] iPadPro129, [00000BDD59767700][00000BDD599D5000 50] iPadPro97, [00000BDD59767C40][00000BDD599D7800 50] iPadPro2_129, [00000BDD59762D80][00000BDD599DA000 50] iPad5, [00000BDD59762F40][00000BDD599DC800 50] iPad6, [00000BDD59766740][00000BDD599C2800 50] iPad7, [00000BDD59769A00][00000BDD599E0000 50] iPad8, [00000BDD597686C0][00000BDD599E5000 50] iPad9, [00000BDD59762840][00000BDD599E7800 50] iPadPro11, [00000BDD597678C0][00000BDD599EA000 50] iPadPro2_11, [00000BDD59761180][00000BDD599EC800 50] iPadPro3_11, [00000BDD597694C0][00000BDD599D2800 50] iPadPro3_129, [00000BDD59764980][00000BDD599F0000 50] iPadPro4_129, [00000BDD597624C0][00000BDD599F5000 50] iPadPro5_129, [00000BDD59768A40][00000BDD599F7800 50] AppleTV, [00000BDD59761DC0][00000BDD599FA000 50] AppleTV4K, [00000BDD59768180][00000BDD599FC800 50] TVOS, [00000BDD5976AB80][00000BDD59A10000 50] Mac, [00000BDD5976AF00][00000BDD59A12800 50] MacEditor, [00000BDD59765E80][00000BDD59A17800 50] MacClient, [00000BDD59765780][00000BDD59A1A000 50] MacServer, [00000BDD59761500][00000BDD599E2800 50] Linux, [00000BDD59764EC0][00000BDD599F2800 50] LinuxEditor, [00000BDD5976B600][00000BDD59A1C800 50] LinuxArm64Editor, [00000BDD5976B440][00000BDD59A00000 50] LinuxArm64, [00000BDD597647C0][00000BDD59A05000 50] LinuxClient, [00000BDD5976B7C0][00000BDD59A07800 50] LinuxArm64Client, [00000BDD5976AD40][00000BDD59A0A000 50] LinuxServer, [00000BDD5976B980][00000BDD59A0C800 50] LinuxArm64Server, [00000BDD59768340][00000BDD59A15000 50] Android, [00000BDD5976BB40][00000BDD59A20000 50] Android_Preview_OpenGL, [00000BDD59761C00][00000BDD59A25000 50] Android_Preview_Vulkan, [00000BDD59766200][00000BDD59A27800 50] Android_Low, [00000BDD597608C0][00000BDD59A2A000 50] Android_Mid, [00000BDD59763640][00000BDD59A2C800 50] Android_High, [00000BDD597640C0][00000BDD59A02800 50] Android_Default, [00000BDD5976A9C0][00000BDD59A30000 50] Android_Adreno4xx, [00000BDD59760700][00000BDD59A35000 50] Android_Adreno5xx_Low, [00000BDD59765400][00000BDD59A37800 50] Android_Adreno5xx, [00000BDD59766AC0][00000BDD59A3A000 50] Android_Adreno6xx, [00000BDD59767FC0][00000BDD59A3C800 50] Android_Adreno6xx_Vulkan, [00000BDD59762140][00000BDD59A22800 50] Android_Adreno7xx, [00000BDD59762300][00000BDD59A40000 50] Android_Adreno7xx_Vulkan, [00000BDD5976A100][00000BDD59A45000 50] Android_Mali_T6xx, [00000BDD59763F00][00000BDD59A47800 50] Android_Mali_T7xx, [00000BDD5976A480][00000BDD59A4A000 50] Android_Mali_T8xx, [00000BDD59769F40][00000BDD59A4C800 50] Android_Mali_G71, [00000BDD5976C5C0][00000BDD59A32800 50] Android_Mali_G72, [00000BDD59765B00][00000BDD59A50000 50] Android_Mali_G72_Vulkan, [00000BDD59767380][00000BDD59A55000 50] Android_Mali_G76, [00000BDD59767000][00000BDD59A57800 50] Android_Mali_G76_Vulkan, [00000BDD5976C780][00000BDD59A5A000 50] Android_Mali_G77, [00000BDD59768500][00000BDD59A5C800 50] Android_Mali_G77_Vulkan, [00000BDD59769D80][00000BDD59A42800 50] Android_Mali_G78, [00000BDD5976C080][00000BDD59A60000 50] Android_Mali_G78_Vulkan, [00000BDD5976B0C0][00000BDD59A65000 50] Android_Mali_G710, [00000BDD5976D580][00000BDD59A67800 50] Android_Mali_G710_Vulkan, [00000BDD5976A2C0][00000BDD59A6A000 50] Android_Xclipse_920, [00000BDD5976B280][00000BDD59A6C800 50] Android_Xclipse_920_Vulkan, [00000BDD59768880][00000BDD59A52800 50] Android_Vulkan_SM5, [00000BDD5976D200][00000BDD59A70000 50] Android_PowerVR_G6xxx, [00000BDD5976C400][00000BDD59A75000 50] Android_PowerVR_GT7xxx, [00000BDD5976A640][00000BDD59A77800 50] Android_PowerVR_GE8xxx, [00000BDD59763100][00000BDD59A7A000 50] Android_PowerVR_GM9xxx, [00000BDD5976E540][00000BDD59A7C800 50] Android_PowerVR_GM9xxx_Vulkan, [00000BDD5976CE80][00000BDD59A62800 50] Android_TegraK1, [00000BDD5976D900][00000BDD59A80000 50] Android_Unknown_Vulkan, [00000BDD5976C240][00000BDD59A85000 50] Oculus_Quest, [00000BDD5976E700][00000BDD59A87800 50] Oculus_Quest2, [00000BDD5976BEC0][00000BDD59A8A000 50] HoloLens, 
+[2022.11.29-13.57.00:368][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.11.29-13.57.00:415][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.11.29-13.57.00:712][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.29-13.57.00:712][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.29-13.57.00:712][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.29-13.57.00:712][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.29-13.57.00:712][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.29-13.57.00:732][  0]LogNetVersion: Animacion3d 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 353606157)
+[2022.11.29-13.57.00:928][  0]LogSlate: Border
+[2022.11.29-13.57.00:928][  0]LogSlate: BreadcrumbButton
+[2022.11.29-13.57.00:928][  0]LogSlate: Default
+[2022.11.29-13.57.00:928][  0]LogSlate: Icons.Save
+[2022.11.29-13.57.00:928][  0]LogSlate: Icons.Toolbar.Settings
+[2022.11.29-13.57.00:928][  0]LogSlate: ListView
+[2022.11.29-13.57.00:928][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.11.29-13.57.00:928][  0]LogSlate: SoftwareCursor_Grab
+[2022.11.29-13.57.00:928][  0]LogSlate: TableView.DarkRow
+[2022.11.29-13.57.00:928][  0]LogSlate: TableView.Row
+[2022.11.29-13.57.00:928][  0]LogSlate: TreeView
+[2022.11.29-13.57.01:232][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.01:284][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.01:284][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.01:469][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.11.29-13.57.01:469][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2022.11.29-13.57.01:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.29-13.57.02:013][  0]LogPython: Using Python 3.9.7
+[2022.11.29-13.57.03:183][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 95DC66CD41E5FA2117F71EA6EDFCCE79 | Instance: 6EFD122345506E7C2A24029FC03AF688 (SAT-PC03-10424).
+[2022.11.29-13.57.03:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.29-13.57.03:242][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.29-13.57.04:538][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.04:551][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.04:588][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.04:625][  0]LogUProjectInfo: Found projects:
+[2022.11.29-13.57.05:311][  0]LogOpenImageDenoise: OIDN starting up
+[2022.11.29-13.57.05:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.29-13.57.05:594][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.29-13.57.05:594][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.29-13.57.05:934][  0]LogCollectionManager: Loaded 0 collections in 0.003945 seconds
+[2022.11.29-13.57.06:161][  0]LogFileCache: Scanning file cache for directory 'C:/git/Unreal/Animacion3d/Saved/Collections/' took 0.00s
+[2022.11.29-13.57.06:161][  0]LogFileCache: Scanning file cache for directory 'C:/git/Unreal/Animacion3d/Content/Developers/JuanSiverio/Collections/' took 0.00s
+[2022.11.29-13.57.06:161][  0]LogFileCache: Scanning file cache for directory 'C:/git/Unreal/Animacion3d/Content/Collections/' took 0.00s
+[2022.11.29-13.57.06:849][  0]LogEngine: Initializing Engine...
+[2022.11.29-13.57.06:871][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.11.29-13.57.06:896][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.11.29-13.57.07:276][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.29-13.57.07:277][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-13.57.07:291][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-13.57.07:336][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.29-13.57.07:337][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.11.29-13.57.07:369][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.11.29-13.57.07:370][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.11.29-13.57.07:370][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-13.57.07:371][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-13.57.07:371][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-13.57.07:381][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-13.57.07:477][  0]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.11.29-13.57.07:477][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-13.57.07:480][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-13.57.07:480][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-13.57.07:481][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.11.29-13.57.07:481][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.29-13.57.07:482][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.29-13.57.07:482][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.11.29-13.57.07:482][  0]LogInit: FAudioDevice initialized.
+[2022.11.29-13.57.07:482][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.11.29-13.57.07:482][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.29-13.57.07:482][  0]LogInit: Texture streaming: Enabled
+[2022.11.29-13.57.07:530][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.11.29-13.57.07:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.29-13.57.07:581][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.11.29-13.57.07:590][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.11.29-13.57.07:590][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: Animacion3dEditor Win64 Development
+[2022.11.29-13.57.10:399][  0]LogLiveCoding: Display: First instance in process group "UE_Animacion3d_0x849befb4", spawning console
+[2022.11.29-13.57.10:399][  0]LogLiveCoding: Display: Waiting for server
+[2022.11.29-13.57.10:399][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.11.29-13.57.10:438][  0]LogInit: Transaction tracking system initialized
+[2022.11.29-13.57.10:556][  0]BlueprintLog: New page: Editor Load
+[2022.11.29-13.57.10:847][  0]LocalizationService: Localization service is disabled
+[2022.11.29-13.57.10:925][  0]TimingProfiler: Initialize
+[2022.11.29-13.57.10:925][  0]TimingProfiler: OnSessionChanged
+[2022.11.29-13.57.10:925][  0]LoadingProfiler: Initialize
+[2022.11.29-13.57.10:926][  0]LoadingProfiler: OnSessionChanged
+[2022.11.29-13.57.10:926][  0]NetworkingProfiler: Initialize
+[2022.11.29-13.57.10:926][  0]NetworkingProfiler: OnSessionChanged
+[2022.11.29-13.57.10:926][  0]MemoryProfiler: Initialize
+[2022.11.29-13.57.10:926][  0]MemoryProfiler: OnSessionChanged
+[2022.11.29-13.57.11:878][  0]LogFileCache: Scanning file cache for directory 'C:/git/Unreal/Animacion3d/Content/' took 0.04s
+[2022.11.29-13.57.11:878][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.11.29-13.57.11:993][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.11.29-13.57.11:996][  0]SourceControl: Source control is disabled
+[2022.11.29-13.57.11:996][  0]LogUnrealEdMisc: Loading editor; pre map load, took 22.097
+[2022.11.29-13.57.11:996][  0]Cmd: MAP LOAD FILE="../../../../../../git/Unreal/Animacion3d/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.29-13.57.12:004][  0]LightingResults: New page: Lighting Build
+[2022.11.29-13.57.12:014][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-13.57.12:014][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-13.57.12:014][  0]MapCheck: New page: Map Check
+[2022.11.29-13.57.12:014][  0]LightingResults: New page: Lighting Build
+[2022.11.29-13.57.12:025][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-13.57.12:029][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.29-13.57.12:164][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2022.11.29-13.57.12:173][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-13.57.12:174][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-13.57.12:174][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-13.57.12:175][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.11.29-13.57.12:580][  0]LogLinker: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\Animations\LevelStart_Montage.uasset: Failed to load '/Game/ParagonShinbi/Characters/Heroes/Mudang/Animations/LevelStart': Can't find file.
+[2022.11.29-13.57.12:580][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonShinbi/Characters/Heroes/Mudang/Animations/LevelStart'
+[2022.11.29-13.57.12:581][  0]LogLinker: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\Animations\LevelStart_Montage.uasset: Failed to load '/Game/ParagonShinbi/FX/Particles/Emotes/FX/P_Mudang_LevelStart_Heart': Can't find file.
+[2022.11.29-13.57.12:581][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonShinbi/FX/Particles/Emotes/FX/P_Mudang_LevelStart_Heart'
+[2022.11.29-13.57.14:045][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.11.29-13.57.14:045][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2022.11.29-13.57.14:046][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.11.29-13.57.14:046][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.11.29-13.57.14:047][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.11.29-13.57.14:047][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2022.11.29-13.57.14:047][  0]LogBlueprint: Warning: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\CountessPlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2022.11.29-13.57.14:137][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Game/ParagonCountess/Characters/Global/Eyes/Textures/EpicQuadPanorama_CC.EpicQuadPanorama_CC', its maximum texture size has been explicitly set to 512.
+[2022.11.29-13.57.14:730][  0]LogMaterial: Display: Missing cached shadermap for M_TearDuct_2 in PCD3D_SM5, Low, SM5 (DDC key hash: 1D03DE322EE1CF538AC7878FABF01A1C871F3DE0), compiling. 
+[2022.11.29-13.57.15:204][  0]LogMaterial: Display: Missing cached shadermap for M_TearLine in PCD3D_SM5, Low, SM5 (DDC key hash: 2E59D5853726764B0DC44F3AB51CB71344F134BB), compiling. 
+[2022.11.29-13.57.15:903][  0]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SM_Countess) ...
+[2022.11.29-13.57.16:093][  0]LogSkeletalMesh: Display: [AssetLog] C:\git\Unreal\Animacion3d\Content\ParagonCountess\Characters\Heroes\Countess\Meshes\SM_Countess.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2022.11.29-13.57.16:093][  0]LogWorldPartition: Display: WorldPartition initialize took 3.91 sec
+[2022.11.29-13.57.16:100][  0]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-13.57.16:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.29-13.57.16:141][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.29-13.57.16:142][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.29-13.57.16:143][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.283ms to complete.
+[2022.11.29-13.57.16:143][  0]LogFileHelpers: Loading map 'ThirdPersonMap' took 4.147
+[2022.11.29-13.57.16:164][  0]LogUnrealEdMisc: Total Editor Startup Time, took 26.265
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: ================================================
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Total job queries 340, among them cache hits 0 (0.00%)
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Shaders Compiled: 340
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Jobs assigned 30, completed 0 (0.00%)
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 10.00 jobs/batch
+[2022.11.29-13.57.16:164][  0]LogShaderCompilers: Display: ================================================
+[2022.11.29-13.57.16:310][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-13.57.16:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-13.57.16:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-13.57.16:336][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-13.57.16:398][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:398][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:407][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:407][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:415][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:415][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:423][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:423][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:440][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:440][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:448][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:448][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:455][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:455][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:462][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:463][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:469][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:469][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:476][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.11.29-13.57.16:476][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-13.57.16:477][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.11.29-13.57.17:127][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.29-13.57.17:129][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.29-13.57.17:151][  0]LogSlate: Took 0.017907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.29-13.57.17:162][  0]LogSlate: Took 0.008789 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.29-13.57.17:174][  0]LogSlate: Took 0.011078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.29-13.57.17:264][  0]LogViewport: Scene viewport resized to 1200x500, mode Windowed.
+[2022.11.29-13.57.17:359][  0]LogSlate: Took 0.005318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.29-13.57.18:208][  0]LogStall: Startup...
+[2022.11.29-13.57.18:210][  0]LogStall: Startup complete.
+[2022.11.29-13.57.18:249][  0]LogLoad: (Engine Initialization) Total time: 28.35 seconds
+[2022.11.29-13.57.18:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.29-13.57.18:276][  0]LogAssetRegistry: Asset discovery search completed in 18.7536 seconds
+[2022.11.29-13.57.18:289][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.11.29-13.57.18:292][  0]LogContentStreaming: Texture pool size now 400 MB
+[2022.11.29-13.57.18:874][  3]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.29-13.57.23:461][189]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/S_Countess_Skeleton.S_Countess_Skeleton) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.11.29-13.57.23:462][189]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/ParagonCountess/Characters/Heroes/Countess/Meshes/S_Countess_Skeleton.S_Countess_Skeleton
+[2022.11.29-13.57.23:531][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-13.57.23:668][189]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:689][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:690][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.23:692][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.29-13.57.23:992][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-13.57.24:081][189]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.11.29-13.57.24:083][189]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess
+[2022.11.29-13.57.24:084][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-13.57.24:135][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.24:135][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:135][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:135][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Actor 'AnimationEditorPreviewActor_0' component 'DebugSkelMeshComponent_0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:136][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:137][189]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-13.57.24:137][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.29-13.57.25:003][189]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.11.29-13.59.04:565][547]LogDerivedDataCache: C:/Users/Juan Siverio.ULL/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.609 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.29-13.59.28:462][819]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 63.506s, TBasePassPSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=14.055s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=13.872s], TBasePassPSTLightMapPolicyHQSkylight [WorkerTime=12.658s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=4.043s], FHitProxyVS [WorkerTime=3.653s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.258s], FLumenTranslucencyRadianceCacheMarkVS [WorkerTime=2.948s], TLightMapDensityVSTLightMapPolicyHQ [WorkerTime=2.463s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=0.831s], VelocityPipeline
+[2022.11.29-13.59.44:647][677]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 79.291s, TBasePassPSFSelfShadowedTranslucencyPolicy [WorkerTime=14.275s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=12.501s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight [WorkerTime=12.434s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=12.006s], TBasePassPSFNoLightMapPolicy [WorkerTime=11.972s], TBasePassVSFNoLightMapPolicy [WorkerTime=6.145s], TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=3.791s], FDebugViewModeVS [WorkerTime=3.160s], FDebugViewModePS [WorkerTime=2.082s], FHitProxyPS [WorkerTime=0.821s]
+[2022.11.29-13.59.49:225][919]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-13.59.49:225][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-13.59.49:293][919]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-13.59.49:293][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-13.59.50:187][965]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-13.59.50:187][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.00.00:054][467]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.00.00:097][468]LogViewport: Scene viewport resized to 378x158, mode Windowed.
+[2022.11.29-14.00.00:920][498]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.11.29-14.00.05:694][662]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: ================================================
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Total job queries 340, among them cache hits 0 (0.00%)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Tracking 91 distinct input hashes that result in 72 distinct outputs (79.12%)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: RAM used: 0.31 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Shaders Compiled: 340
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Jobs assigned 121, completed 91 (75.21%)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Time job spent in pending queue: average 84.89 s, longest 190.38 s
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Job execution time: average 50.11 s, max 79.29 s
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Job life time (pending + execution): average 107.04 s, max 190.38
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 190.38 s
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 5.50 jobs/batch
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Average processing rate: 0.48 jobs/sec
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Effective parallelization: 2.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    1 times, average 15.76 sec, max 15.76 sec, min 15.76 sec)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 14.27 sec, max 14.27 sec, min 14.27 sec)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    1 times, average 14.06 sec, max 14.06 sec, min 14.06 sec)
+[2022.11.29-14.00.25:574][381]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    1 times, average 13.87 sec, max 13.87 sec, min 13.87 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 13.86 sec, max 15.28 sec, min 12.43 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.94% of total time (compiled    4 times, average 7.72 sec, max 13.27 sec, min 2.83 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.93% of total time (compiled    3 times, average 10.28 sec, max 14.62 sec, min 4.23 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.26% of total time (compiled    7 times, average 3.98 sec, max 6.15 sec, min 3.26 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight - 6.22% of total time (compiled    2 times, average 13.86 sec, max 15.28 sec, min 12.43 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.27% of total time (compiled    2 times, average 9.50 sec, max 13.01 sec, min 5.99 sec)
+[2022.11.29-14.00.25:575][381]LogShaderCompilers: Display: ================================================
+[2022.11.29-14.00.25:790][381]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.00.59:141][644]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.01.01:430][747]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 76.784s, TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=18.290s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=15.695s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=15.296s], TBasePassPSTLightMapPolicyLQ [WorkerTime=10.078s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=4.496s], TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=4.216s], TBasePassVSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=3.381s], TLightMapDensityPSFNoLightMapPolicy [WorkerTime=2.411s], FDebugViewModeVS [WorkerTime=2.191s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.639s]
+[2022.11.29-14.01.01:651][747]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.01.25:461][735]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.01.38:305][692]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.01.45:140][ 77]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.02.09:245][948]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.02.15:400][162]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.02.24:166][478]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.02.50:669][432]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.02.51:596][460]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.03.18:788][440]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: ================================================
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: Total job queries 340, among them cache hits 0 (0.00%)
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: Tracking 211 distinct input hashes that result in 108 distinct outputs (51.18%)
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: RAM used: 0.48 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: Shaders Compiled: 340
+[2022.11.29-14.03.45:097][392]LogShaderCompilers: Display: Jobs assigned 241, completed 211 (87.55%)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Time job spent in pending queue: average 190.17 s, longest 389.90 s
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Job execution time: average 49.02 s, max 79.29 s
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Job life time (pending + execution): average 214.68 s, max 389.90
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 389.90 s
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Jobs were issued in 34 batches (only local compilation was used), average 7.09 jobs/batch
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Average processing rate: 0.54 jobs/sec
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Effective parallelization: 2.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 18.29 sec, max 18.29 sec, min 18.29 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 14.71 sec, max 15.30 sec, min 13.87 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 14.36 sec, max 16.63 sec, min 10.67 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    1 times, average 12.66 sec, max 12.66 sec, min 12.66 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 11.28 sec, max 15.28 sec, min 9.30 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight - 5.61% of total time (compiled    5 times, average 11.28 sec, max 15.28 sec, min 9.30 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.57% of total time (compiled    6 times, average 9.33 sec, max 15.69 sec, min 2.17 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 5.40% of total time (compiled    7 times, average 7.75 sec, max 12.30 sec, min 1.73 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.17% of total time (compiled    6 times, average 8.66 sec, max 11.91 sec, min 4.18 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.94% of total time (compiled    6 times, average 8.27 sec, max 13.27 sec, min 2.83 sec)
+[2022.11.29-14.03.45:098][392]LogShaderCompilers: Display: ================================================
+[2022.11.29-14.03.45:317][392]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.02:967][ 51]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 72.511s, TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=10.650s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=10.370s], TBasePassPSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=10.182s], TBasePassPSFSelfShadowedTranslucencyPolicy [WorkerTime=9.642s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=9.472s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=9.446s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=3.151s], FDebugViewModeVS [WorkerTime=2.472s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=2.131s], VelocityPipeline
+[2022.11.29-14.04.03:189][ 51]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.06:467][163]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.12:070][412]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.11.29-14.04.12:257][412]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.11.29-14.04.18:464][564]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.20:572][629]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.29-14.04.32:479][ 34]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.36:187][151]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.29-14.04.36:194][151]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.29-14.04.38:966][241]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.44:414][434]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.53:805][773]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.04.56:818][878]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.05.15:891][283]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.17:760][398]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 84.194s, TBasePassPSFNoLightMapPolicySkylight [WorkerTime=28.335s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=26.440s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=7.736s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=4.458s], TBasePassPSTLightMapPolicyLQSkylight [WorkerTime=3.863s], FLumenCardVS [WorkerTime=3.389s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=3.283s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=3.191s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=3.092s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=0.310s]
+[2022.11.29-14.06.18:008][398]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.18:185][406]LogShaderCompilers: Display: Worker (3/3) finished batch of 7 jobs in 62.512s, FLumenCardVS [WorkerTime=35.618s], TBasePassPSFCachedVolumeIndirectLightingPolicySkylight [WorkerTime=7.419s], FHitProxyPS [WorkerTime=4.802s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=3.677s], FLumenCardVS [WorkerTime=3.661s], FLumenCardPS<false> [WorkerTime=1.363s], DepthNoColorOutputPipeline
+[2022.11.29-14.06.18:405][406]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.26:520][699]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 89.921s, TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=36.220s], FHitProxyVS [WorkerTime=23.856s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=7.085s], FDebugViewModeVS [WorkerTime=6.637s], FDebugViewModeVS [WorkerTime=3.783s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=3.561s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=3.390s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=3.320s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.988s], TLightMapDensityPSFNoLightMapPolicy [WorkerTime=0.935s]
+[2022.11.29-14.06.26:770][699]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.29:109][774]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.32:770][899]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.33:784][927]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.35:007][964]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.06.42:636][221]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.29-14.24.46:672][572]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.11.29-14.24.55:199][927]LogLiveCoding: Display: Console will be hidden but remain running in the background. Restart to disable completely.
+[2022.11.29-14.24.55:236][928]LogLiveCoding: Display: Console will be hidden but remain running in the background. Restart to disable completely.
+[2022.11.29-14.25.11:728][528]Candidate modules for hot reload:
+[2022.11.29-14.25.11:728][528]  Animacion3d
+[2022.11.29-14.25.11:739][528]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=Animacion3d,4506 Animacion3dEditor Win64 Development -Project="C:/git/Unreal/Animacion3d/Animacion3d.uproject" "C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -IgnoreJunk]
+[2022.11.29-14.25.11:742][528]Warning: Starting HotReload took  0.1s.
+[2022.11.29-14.25.14:848][632]LogLiveCoding: Display:    Creando biblioteca C:\git\Unreal\Animacion3d\Binaries\Win64\UnrealEditor-Animacion3d.patch_0.lib y objeto C:\git\Unreal\Animacion3d\Binaries\Win64\UnrealEditor-Animacion3d.patch_0.exp
+[2022.11.29-14.25.15:065][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.11.29-14.25.15:092][634]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.11.29-14.25.15:092][634]LogLiveCoding: Display: Live coding succeeded
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: New page: Compilation - Nov 29, 2022, 2:25:18 PM
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Log file: C:\Users\Juan Siverio.ULL\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\git\Unreal).
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Building Animacion3dEditor...
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: [Adaptive Build] Excluded from Animacion3d unity file: Animacion3d.cpp, Animacion3dCharacter.cpp, Animacion3dGameMode.cpp
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2022.11.29-14.25.18:474][766]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2022.11.29-14.25.18:474][766]CompilerResultsLog:   Requested 1,5 GB free memory per action, 5,1 GB available: limiting max parallel actions to 3
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Building 4 actions with 3 processes...
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: [1/4] Compile Animacion3dGameMode.cpp
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: [2/4] Link UnrealEditor-Animacion3d-4506.lib
+[2022.11.29-14.25.18:474][766]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-4506.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-4506.exp
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: [3/4] Link UnrealEditor-Animacion3d-4506.dll
+[2022.11.29-14.25.18:474][766]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-4506.suppressed.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-4506.suppressed.exp
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: [4/4] WriteMetadata Animacion3dEditor.target
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Total time in Parallel executor: 4,24 seconds
+[2022.11.29-14.25.18:474][766]CompilerResultsLog: Total execution time: 6,58 seconds
+[2022.11.29-14.25.18:475][766]LogMainFrame: MainFrame: Module compiling took 6.790 seconds
+[2022.11.29-14.25.18:638][766]Display: HotReload took  7.0s.
+[2022.11.29-14.25.18:639][766]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2022.11.29-14.25.19:973][824]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-14.25.19:985][824]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Display: GetPartitionedActors took 276 us
+[2022.11.29-14.25.19:986][824]LogWorldPartition: Display: GenerateStreaming took 908 us
+[2022.11.29-14.25.19:990][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-14.25.19:990][824]PIE: New page: PIE session: ThirdPersonMap (Nov 29, 2022, 2:25:19 PM)
+[2022.11.29-14.25.19:997][824]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.29-14.25.19:998][824]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.29-14.25.19:999][824]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.25.20:006][824]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-14.25.20:007][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007931s)
+[2022.11.29-14.25.20:007][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008237s)
+[2022.11.29-14.25.20:007][824]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.25.20:008][824]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-14.25.20:008][824]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-14.25.20:008][824]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-14.25.20:011][824]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.11.29-14.25.20:011][824]LogPlayLevel: PIE: World Init took: (0.003962s)
+[2022.11.29-14.25.20:053][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.11.29-14.25.20:058][824]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-14.25.20:058][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-14.25.20:058][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-14.25.20:058][824]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-14.25.20:058][824]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-14.25.20:058][824]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-14.25.20:061][824]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-14.25.20:099][824]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.11.29-14.25.20:099][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-14.25.20:100][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-14.25.20:100][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-14.25.20:101][824]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.29-14.25.20:101][824]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.11.29-14.25.20:103][824]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.29-14.25.20:103][824]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.29-14.25.20:103][824]LogInit: FAudioDevice initialized.
+[2022.11.29-14.25.20:103][824]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2022.11.29-14.25.20:120][824]LogLoad: Game class is 'Animacion3dGameMode'
+[2022.11.29-14.25.20:123][824]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.25.20:124][824]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.25.20:124][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:124][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:124][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:125][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:126][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:126][824]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.25.20:126][824]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.29-14.25.20
+[2022.11.29-14.25.20:138][824]LogWorld: Bringing up level for play took: 0.017401
+[2022.11.29-14.25.20:141][824]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.11.29-14.25.20:248][824]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.29-14.25.20:248][824]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.25.20:250][824]PIE: Server logged in
+[2022.11.29-14.25.20:252][824]PIE: Play in editor total start time 0.271 seconds.
+[2022.11.29-14.25.22:322][916]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.11.29-14.25.25:911][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.25.25:911][ 87]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.25.25:911][ 87]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.25.25:913][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.25.25:924][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-14.25.25:927][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.25.25:938][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-14.25.25:939][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.29-14.25.25:941][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.29-14.25.25:947][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.25.25:951][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.11.29-14.25.25:998][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.11.29-14.28.00:681][816]LogSlate: Took 0.001132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.29-14.28.30:038][971]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Animacion3dGameMode.BP_Animacion3dGameMode
+[2022.11.29-14.28.30:040][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.28.35:283][971]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.11.29-14.28.35:283][971]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.048603s
+[2022.11.29-14.28.35:480][971]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004411s (0.505732s overbudget)
+[2022.11.29-14.28.35:480][971]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.11.29-14.28.35:562][971]LogViewport: Scene viewport resized to 705x407, mode Windowed.
+[2022.11.29-14.28.39:001][ 77]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.28.39:024][ 77]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.28.39:031][ 77]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.28.39:032][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.28.46:616][380]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Animacion3dGameMode.BP_Animacion3dGameMode
+[2022.11.29-14.28.46:616][380]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.28.59:457][832]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.28.59:480][832]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.28.59:483][832]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.28.59:483][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.29.10:973][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Animacion3dGameMode.BP_Animacion3dGameMode
+[2022.11.29-14.29.10:973][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.29.22:384][439]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.29.22:399][439]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.29.22:399][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.29.22:446][439]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Animacion3dGameMode.BP_Animacion3dGameMode
+[2022.11.29-14.29.22:446][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.32.26:106][612]LogSlate: Window 'BP_Animacion3dGameMode' being destroyed
+[2022.11.29-14.32.26:134][612]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.32.26:134][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.34.26:966][952]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.34.26:967][952]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2022.11.29-14.34.26:967][952]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2022.11.29-14.34.33:763][229]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.11.29-14.35.47:188][280]LogSlate: Window 'Reference Viewer' being destroyed
+[2022.11.29-14.35.47:221][280]LogSlate: Window 'Reference Viewer' being destroyed
+[2022.11.29-14.36.20:612][464]Candidate modules for hot reload:
+[2022.11.29-14.36.20:612][464]  Animacion3d
+[2022.11.29-14.36.20:622][464]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=Animacion3d,9180 Animacion3dEditor Win64 Development -Project="C:/git/Unreal/Animacion3d/Animacion3d.uproject" "C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -IgnoreJunk]
+[2022.11.29-14.36.20:624][464]Warning: Starting HotReload took  0.1s.
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: New page: Compilation - Nov 29, 2022, 2:36:25 PM
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Log file: C:\Users\Juan Siverio.ULL\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\git\Unreal).
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Building Animacion3dEditor...
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: [Adaptive Build] Excluded from Animacion3d unity file: Animacion3d.cpp, Animacion3dCharacter.cpp, Animacion3dGameMode.cpp
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2022.11.29-14.36.25:578][517]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2022.11.29-14.36.25:578][517]CompilerResultsLog:   Requested 1,5 GB free memory per action, 3,83 GB available: limiting max parallel actions to 2
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Building 4 actions with 2 processes...
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: [1/4] Compile Animacion3dGameMode.cpp
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: [2/4] Link UnrealEditor-Animacion3d-9180.lib
+[2022.11.29-14.36.25:578][517]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-9180.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-9180.exp
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: [3/4] Link UnrealEditor-Animacion3d-9180.dll
+[2022.11.29-14.36.25:578][517]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-9180.suppressed.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-9180.suppressed.exp
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: [4/4] WriteMetadata Animacion3dEditor.target
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Total time in Parallel executor: 3,00 seconds
+[2022.11.29-14.36.25:578][517]CompilerResultsLog: Total execution time: 4,62 seconds
+[2022.11.29-14.36.25:578][517]LogMainFrame: MainFrame: Module compiling took 5.020 seconds
+[2022.11.29-14.36.25:623][517]Re-instancing Animacion3dGameMode after reload.
+[2022.11.29-14.36.25:838][517]Display: HotReload took  5.3s.
+[2022.11.29-14.36.25:839][517]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2022.11.29-14.36.58:559][651]Candidate modules for hot reload:
+[2022.11.29-14.36.58:559][651]  Animacion3d
+[2022.11.29-14.36.58:569][651]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=Animacion3d,7039 Animacion3dEditor Win64 Development -Project="C:/git/Unreal/Animacion3d/Animacion3d.uproject" "C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -IgnoreJunk]
+[2022.11.29-14.36.58:572][651]Warning: Starting HotReload took  0.1s.
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: New page: Compilation - Nov 29, 2022, 2:37:04 PM
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Log file: C:\Users\Juan Siverio.ULL\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\git\Unreal).
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Building Animacion3dEditor...
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: [Adaptive Build] Excluded from Animacion3d unity file: Animacion3d.cpp, Animacion3dCharacter.cpp, Animacion3dGameMode.cpp
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2022.11.29-14.37.04:305][763]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2022.11.29-14.37.04:305][763]CompilerResultsLog:   Requested 1,5 GB free memory per action, 4,14 GB available: limiting max parallel actions to 2
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Building 4 actions with 2 processes...
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: [1/4] Compile Animacion3dGameMode.cpp
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: [2/4] Link UnrealEditor-Animacion3d-7039.lib
+[2022.11.29-14.37.04:305][763]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-7039.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-7039.exp
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: [3/4] Link UnrealEditor-Animacion3d-7039.dll
+[2022.11.29-14.37.04:305][763]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-7039.suppressed.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-7039.suppressed.exp
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: [4/4] WriteMetadata Animacion3dEditor.target
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Total time in Parallel executor: 3,58 seconds
+[2022.11.29-14.37.04:305][763]CompilerResultsLog: Total execution time: 5,34 seconds
+[2022.11.29-14.37.04:305][763]LogMainFrame: MainFrame: Module compiling took 5.797 seconds
+[2022.11.29-14.37.04:548][763]Display: HotReload took  6.0s.
+[2022.11.29-14.37.04:548][763]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2022.11.29-14.37.11:534][872]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-14.37.11:544][872]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-14.37.11:544][872]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-14.37.11:544][872]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.11:545][872]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-14.37.11:545][872]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-14.37.11:545][872]LogWorldPartition: Display: GetPartitionedActors took 75 us
+[2022.11.29-14.37.11:545][872]LogWorldPartition: Display: GenerateStreaming took 365 us
+[2022.11.29-14.37.11:545][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-14.37.11:545][872]PIE: New page: PIE session: ThirdPersonMap (Nov 29, 2022, 2:37:11 PM)
+[2022.11.29-14.37.11:546][872]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.37.11:556][872]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-14.37.11:556][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010127s)
+[2022.11.29-14.37.11:556][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.010202s)
+[2022.11.29-14.37.11:556][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.37.11:556][872]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-14.37.11:557][872]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-14.37.11:557][872]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-14.37.11:559][872]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-14.37.11:559][872]LogPlayLevel: PIE: World Init took: (0.003115s)
+[2022.11.29-14.37.11:721][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.11.29-14.37.11:723][872]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-14.37.11:723][872]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-14.37.11:723][872]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-14.37.11:723][872]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-14.37.11:723][872]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-14.37.11:723][872]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-14.37.11:725][872]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-14.37.11:759][872]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.11.29-14.37.11:759][872]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-14.37.11:759][872]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-14.37.11:759][872]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-14.37.11:760][872]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.11.29-14.37.11:760][872]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.11.29-14.37.11:761][872]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.11.29-14.37.11:761][872]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.11.29-14.37.11:761][872]LogInit: FAudioDevice initialized.
+[2022.11.29-14.37.11:762][872]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2022.11.29-14.37.11:777][872]LogLoad: Game class is 'Animacion3dGameMode'
+[2022.11.29-14.37.11:779][872]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:780][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:781][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:782][872]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.29-14.37.11
+[2022.11.29-14.37.11:782][872]LogWorld: Bringing up level for play took: 0.005637
+[2022.11.29-14.37.11:784][872]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2022.11.29-14.37.11:788][872]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.37.11:788][872]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2022.11.29-14.37.11:788][872]LogSkeletalMesh: Display: OnRegister[/Game/ParagonCountess/Characters/Heroes/Countess/Meshes/SM_Countess.SM_Countess]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_0' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_0' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:789][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_0' component 'CharacterMesh0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_0' component 'CharacterMesh0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:790][872]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.11:792][872]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=97.338
+[2022.11.29-14.37.11:792][872]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.11:792][872]PIE: Server logged in
+[2022.11.29-14.37.11:793][872]PIE: Play in editor total start time 0.251 seconds.
+[2022.11.29-14.37.13:877][966]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.11.29-14.37.13:877][966]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.11.29-14.37.23:645][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.37.23:645][407]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.37.23:646][407]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.37.23:646][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.37.23:662][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-14.37.23:670][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.37.23:696][407]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-14.37.23:713][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.29-14.37.23:714][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.29-14.37.23:719][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.37.23:765][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.11.29-14.37.23:824][408]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.11.29-14.37.38:630][537]Candidate modules for hot reload:
+[2022.11.29-14.37.38:630][537]  Animacion3d
+[2022.11.29-14.37.38:640][537]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=Animacion3d,1274 Animacion3dEditor Win64 Development -Project="C:/git/Unreal/Animacion3d/Animacion3d.uproject" "C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -IgnoreJunk]
+[2022.11.29-14.37.38:643][537]Warning: Starting HotReload took  0.1s.
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: New page: Compilation - Nov 29, 2022, 2:37:44 PM
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: Log file: C:\Users\Juan Siverio.ULL\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\git\Unreal).
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: Building Animacion3dEditor...
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.29-14.37.44:181][603]CompilerResultsLog: [Adaptive Build] Excluded from Animacion3d unity file: Animacion3d.cpp, Animacion3dCharacter.cpp, Animacion3dGameMode.cpp
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2022.11.29-14.37.44:182][603]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2022.11.29-14.37.44:182][603]CompilerResultsLog:   Requested 1,5 GB free memory per action, 4,14 GB available: limiting max parallel actions to 2
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: Building 4 actions with 2 processes...
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: [1/4] Compile Animacion3dGameMode.cpp
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: [2/4] Link UnrealEditor-Animacion3d-1274.lib
+[2022.11.29-14.37.44:182][603]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-1274.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-1274.exp
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: [3/4] Link UnrealEditor-Animacion3d-1274.dll
+[2022.11.29-14.37.44:182][603]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-1274.suppressed.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-1274.suppressed.exp
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: [4/4] WriteMetadata Animacion3dEditor.target
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: Total time in Parallel executor: 3,33 seconds
+[2022.11.29-14.37.44:182][603]CompilerResultsLog: Total execution time: 5,26 seconds
+[2022.11.29-14.37.44:182][603]LogMainFrame: MainFrame: Module compiling took 5.602 seconds
+[2022.11.29-14.37.44:225][603]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter'
+[2022.11.29-14.37.44:226][603]Error: CDO Constructor (Animacion3dGameMode): Failed to find /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+
+[2022.11.29-14.37.44:226][603]Re-instancing Animacion3dGameMode after reload.
+[2022.11.29-14.37.44:255][603]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Animacion3dGameMode): Failed to find /Game/ParagonCountess/Characters/Heroes/Countess/CountessPlayerCharacter.CountessPlayerCharacter
+
+
+[2022.11.29-14.37.44:378][603]Display: HotReload took  5.8s.
+[2022.11.29-14.37.44:378][603]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2022.11.29-14.37.51:386][623]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: GetPartitionedActors took 71 us
+[2022.11.29-14.37.51:395][623]LogWorldPartition: Display: GenerateStreaming took 433 us
+[2022.11.29-14.37.51:396][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-14.37.51:396][623]PIE: New page: PIE session: ThirdPersonMap (Nov 29, 2022, 2:37:51 PM)
+[2022.11.29-14.37.51:396][623]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.37.51:402][623]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-14.37.51:402][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006222s)
+[2022.11.29-14.37.51:402][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006295s)
+[2022.11.29-14.37.51:402][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.37.51:402][623]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-14.37.51:403][623]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-14.37.51:403][623]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-14.37.51:404][623]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-14.37.51:405][623]LogPlayLevel: PIE: World Init took: (0.002665s)
+[2022.11.29-14.37.51:482][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.11.29-14.37.51:487][623]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-14.37.51:487][623]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-14.37.51:487][623]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-14.37.51:487][623]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-14.37.51:487][623]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-14.37.51:487][623]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-14.37.51:490][623]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-14.37.51:525][623]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.11.29-14.37.51:525][623]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-14.37.51:525][623]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-14.37.51:525][623]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-14.37.51:526][623]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.11.29-14.37.51:526][623]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.11.29-14.37.51:527][623]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.11.29-14.37.51:527][623]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.11.29-14.37.51:527][623]LogInit: FAudioDevice initialized.
+[2022.11.29-14.37.51:527][623]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.11.29-14.37.51:539][623]LogLoad: Game class is 'Animacion3dGameMode'
+[2022.11.29-14.37.51:541][623]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:543][623]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:544][623]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.51:545][623]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.29-14.37.51
+[2022.11.29-14.37.51:545][623]LogWorld: Bringing up level for play took: 0.005752
+[2022.11.29-14.37.51:547][623]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.11.29-14.37.51:550][623]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.29-14.37.51:550][623]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.51:550][623]PIE: Server logged in
+[2022.11.29-14.37.51:551][623]PIE: Play in editor total start time 0.158 seconds.
+[2022.11.29-14.37.56:265][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.37.56:265][850]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.37.56:266][850]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.37.56:266][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.37.56:288][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-14.37.56:293][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.37.56:317][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.37.56:318][850]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.29-14.37.56:319][850]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.29-14.37.56:334][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.11.29-14.37.56:388][851]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.11.29-14.37.57:724][907]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: GetPartitionedActors took 67 us
+[2022.11.29-14.37.57:733][907]LogWorldPartition: Display: GenerateStreaming took 353 us
+[2022.11.29-14.37.57:733][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-14.37.57:733][907]PIE: New page: PIE session: ThirdPersonMap (Nov 29, 2022, 2:37:57 PM)
+[2022.11.29-14.37.57:733][907]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.37.57:739][907]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-14.37.57:739][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005914s)
+[2022.11.29-14.37.57:739][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005995s)
+[2022.11.29-14.37.57:740][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-14.37.57:740][907]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-14.37.57:741][907]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-14.37.57:741][907]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-14.37.57:742][907]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-14.37.57:742][907]LogPlayLevel: PIE: World Init took: (0.003075s)
+[2022.11.29-14.37.57:771][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.11.29-14.37.57:775][907]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-14.37.57:775][907]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-14.37.57:775][907]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-14.37.57:775][907]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-14.37.57:775][907]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-14.37.57:775][907]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-14.37.57:777][907]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-14.37.57:810][907]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.11.29-14.37.57:811][907]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-14.37.57:811][907]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-14.37.57:811][907]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-14.37.57:811][907]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.11.29-14.37.57:811][907]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.11.29-14.37.57:813][907]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.11.29-14.37.57:813][907]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.11.29-14.37.57:813][907]LogInit: FAudioDevice initialized.
+[2022.11.29-14.37.57:813][907]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2022.11.29-14.37.57:825][907]LogLoad: Game class is 'Animacion3dGameMode'
+[2022.11.29-14.37.57:827][907]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:829][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 11 sphere, 10 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 7 sphere, 5 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Actor 'CountessPlayerCharacter_C_UAID_F079599279ED4C4E01_2002626903' component 'CharacterMesh0' has 9 sphere, 7 capsule, and 0 convex collision objects for physics authored as part of a LOD construct, probably by the Apex cloth authoring system. This is deprecated. Please update your asset!
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:830][907]LogChaosCloth: Warning: Found a legacy cloth asset with a collision capsule spanning across two bones. This is not supported with the current system.
+[2022.11.29-14.37.57:831][907]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.29-14.37.57
+[2022.11.29-14.37.57:832][907]LogWorld: Bringing up level for play took: 0.005704
+[2022.11.29-14.37.57:834][907]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.11.29-14.37.57:835][907]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.29-14.37.57:835][907]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-14.37.57:835][907]PIE: Server logged in
+[2022.11.29-14.37.57:836][907]PIE: Play in editor total start time 0.105 seconds.
+[2022.11.29-14.38.00:085][ 18]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonCountess/Characters/Heroes/Countess/Animations/LevelStart_Montage.LevelStart_Montage'
+[2022.11.29-14.38.04:976][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.38.04:976][263]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-14.38.04:976][263]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-14.38.04:977][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.38.04:991][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-14.38.04:995][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-14.38.05:021][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-14.38.05:021][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.29-14.38.05:022][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.29-14.38.05:031][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.11.29-14.38.05:075][264]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.11.29-14.38.36:635][457]Candidate modules for hot reload:
+[2022.11.29-14.38.36:635][457]  Animacion3d
+[2022.11.29-14.38.36:645][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=Animacion3d,6114 Animacion3dEditor Win64 Development -Project="C:/git/Unreal/Animacion3d/Animacion3d.uproject" "C:/git/Unreal/Animacion3d/Animacion3d.uproject"  -IgnoreJunk]
+[2022.11.29-14.38.36:648][457]Warning: Starting HotReload took  0.0s.
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: New page: Compilation - Nov 29, 2022, 2:38:42 PM
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Log file: C:\Users\Juan Siverio.ULL\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\git\Unreal).
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Building Animacion3dEditor...
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: [Adaptive Build] Excluded from Animacion3d unity file: Animacion3d.cpp, Animacion3dCharacter.cpp, Animacion3dGameMode.cpp
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2022.11.29-14.38.42:548][606]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2022.11.29-14.38.42:548][606]CompilerResultsLog:   Requested 1,5 GB free memory per action, 4,46 GB available: limiting max parallel actions to 2
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Building 4 actions with 2 processes...
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: [1/4] Compile Animacion3dGameMode.cpp
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: [2/4] Link UnrealEditor-Animacion3d-6114.lib
+[2022.11.29-14.38.42:548][606]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-6114.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-6114.exp
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: [3/4] Link UnrealEditor-Animacion3d-6114.dll
+[2022.11.29-14.38.42:548][606]CompilerResultsLog:    Creando biblioteca C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-6114.suppressed.lib y objeto C:\git\Unreal\Animacion3d\Intermediate\Build\Win64\UnrealEditor\Development\Animacion3d\UnrealEditor-Animacion3d-6114.suppressed.exp
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: [4/4] WriteMetadata Animacion3dEditor.target
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Total time in Parallel executor: 3,79 seconds
+[2022.11.29-14.38.42:548][606]CompilerResultsLog: Total execution time: 5,77 seconds
+[2022.11.29-14.38.42:548][606]LogMainFrame: MainFrame: Module compiling took 5.933 seconds
+[2022.11.29-14.38.42:595][606]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.11.29-14.38.42:595][606]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
