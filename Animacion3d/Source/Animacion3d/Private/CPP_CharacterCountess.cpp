@@ -98,8 +98,10 @@ void ACPP_CharacterCountess::MoveForward(float Value)
 		
 		
 		// get forward vector
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		//const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		const FVector Direction = GetActorForwardVector();
 		AddMovementInput(Direction, Value);
+		
 		//AddActorLocalOffset(Direction);//
 		//GetMesh()->AddImpulse(Direction);
 		
@@ -120,8 +122,7 @@ void ACPP_CharacterCountess::MoveRight(float Value)
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);		
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 
