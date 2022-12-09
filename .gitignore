@@ -1,5 +1,4 @@
 **/bin
-**/StarterContent/
 **/.vs/
 **/.vscode/
 **/Binaries/
@@ -8,3 +7,7 @@
 **/Logs
 **/logs
 **/*.code-workspace
+**/StarterContent/
+**/Megascans/
+**/ParagonCountess/
+**/ParagonRampage/

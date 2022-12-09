@@ -1,0 +1,10 @@
+Notas rápidas:
+
+static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
+if (PlayerPawnBPObject.Object != NULL)
+{
+	DefaultPawnClass = PlayerPawnBPObject.Object->GeneratedClass;
+}
+		
+
+static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BPD/BPD_CharacterCountess"));

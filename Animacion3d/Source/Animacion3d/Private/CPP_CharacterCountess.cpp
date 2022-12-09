@@ -98,12 +98,17 @@ void ACPP_CharacterCountess::MoveForward(float Value)
 		
 		
 		// get forward vector
-		//const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		const FVector Direction = GetActorForwardVector();
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		//const FVector Direction = GetActorForwardVector();
 		AddMovementInput(Direction, Value);
 		
-		//AddActorLocalOffset(Direction);//
-		//GetMesh()->AddImpulse(Direction);
+		//GetCharacterMovement()->AddForce(Direction);
+		
+		//AddActorLocalOffset(FVector(1,0,0));
+		//AddActorWorldOffset(Direction);
+		//GetMesh()->AddForce(Direction);
+		//GetCapsuleComponent()->AddForce(FVector(1000.0f,0.0f,0.0f),NAME_None,true);
+		
 		
 		//GetCapsuleComponent()->AddWorldOffset(Direction);
 		
