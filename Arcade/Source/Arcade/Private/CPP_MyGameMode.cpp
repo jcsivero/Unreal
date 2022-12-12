@@ -15,11 +15,12 @@ ACPP_MyGameMode::ACPP_MyGameMode()
 	//static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter"));
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BPD/BPD_CharacterCountess"));
 
-	if (PlayerPawnBPClass.Class != NULL)
+	if (PlayerPawnBPClass.Class != NULL) 
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 
 	}
+	
 
 	/*static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
 	if (PlayerPawnBPObject.Object != NULL)
@@ -27,35 +28,56 @@ ACPP_MyGameMode::ACPP_MyGameMode()
 		DefaultPawnClass = PlayerPawnBPObject.Object->GeneratedClass;
 	}*/
 
-	playerIsSpawned = false;
+
+	
 	
 }
 
 
 
 void ACPP_MyGameMode::BeginPlay()
-{
+{	
 	Super::BeginPlay();
+
+	AActor* draft;
+	int enemy;
 	
 	FindAllActors(); ///localizo todos los actores en escena, a partir de aquí, todos los nuevos actores se crearan y destruirán con SpawnAndupdateActors(AActor * actor) y DestroyAndupdateActors(AActor * actor);
-						//para mantener los índices actualizados
+	//para mantener los índices actualizados
 
-	
+
 	possibleSpawnLocation_ = FindActorsByClass<ACPP_PossibleSpawnLocation>(TEXT("CPP_PossibleSpawnLocation")); ///Almaceno todas las localizaciones donde spawnear actores.
-
-	
-	int enemy;
 
 	/// <summary>
 	/// Primero Spawner del Player de forma aleatoria
 	/// </summary>
 	/// 
 
-	int excludeSpawnLocation = FMath::FRandRange(0.0f, possibleSpawnLocation_.Num() - 1); ///localización del Player que será excluida de los spawner aleatorios de los enemigos
-	locationInitialPlayer_ = possibleSpawnLocation_[excludeSpawnLocation]->GetTransform(); 
-	AActor* draft = GetWorld()->SpawnActor<AActor>(DefaultPawnClass, locationInitialPlayer_); ///Spawned en las ubicaciones seleccionados de forma aleatoria
-	SpawnAndupdateActors(draft);
-	possibleSpawnLocation_.RemoveAt(excludeSpawnLocation); ///elimino la localización donde está el player, para que no cuenta en los posibles spawn de enemigos.
+	
+	//if (!playerIsSpawnedByDefault_)
+//	{
+	
+		int excludeSpawnLocation = FMath::FRandRange(0.0f, possibleSpawnLocation_.Num()); ///localización del Player que será excluida de los spawner aleatorios de los enemigos
+		locationInitialPlayer_ = possibleSpawnLocation_[excludeSpawnLocation]->GetTransform();
+		//draft = GetWorld()->SpawnActor<AActor>(DefaultPawnClass, locationInitialPlayer_); ///Spawned en las ubicaciones seleccionados de forma aleatoria
+		//SpawnAndupdateActors(draft);
+		draft = FindActorByName(TEXT("BPD_CharacterCountess"));
+		if (draft != nullptr)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("encontrado"));
+			draft->SetActorTransform(locationInitialPlayer_);
+		}
+			
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("NO encontrado"));
+		}
+			
+
+		possibleSpawnLocation_.RemoveAt(excludeSpawnLocation); ///elimino la localización donde está el player, para que no cuenta en los posibles spawn de enemigos.
+
+//	}
+	
 
 	for (int i = 0; i < possibleSpawnLocation_.Num(); i++)
 	{
@@ -66,6 +88,7 @@ void ACPP_MyGameMode::BeginPlay()
 		SpawnAndupdateActors(draft); ///actualizo listas de Actores.
 
 	}
+	
 
 
 
