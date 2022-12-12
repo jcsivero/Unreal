@@ -35,7 +35,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 	TArray<TSubclassOf<class ACPP_Enemies>> enemies_;
 
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = " Enemies")
+	TArray<class ACPP_PossibleSpawnLocation *> possibleSpawnLocation_;
 
+	bool playerIsSpawned;
 
 	/// <summary>
 	/// Actpres actualmente en el nivel activo.
@@ -46,7 +49,9 @@ public:
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "ActorsSpawned")
 	TMap<FString, AActor*> actorsByName_;
 
-	
+	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "ActorsSpawned")
+	FTransform locationInitialPlayer_;
+
 	TMap<FString, TSet<AActor*>> actorsByTag_;	
 	TMap<FString, TSet<AActor*>> actorsByClass_;
 

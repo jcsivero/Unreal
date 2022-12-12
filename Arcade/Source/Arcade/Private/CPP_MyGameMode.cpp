@@ -5,6 +5,7 @@
 #include "UObject/ConstructorHelpers.h"
 #include "CPP_PossibleSpawnLocation.h"
 #include "Kismet/GameplayStatics.h"
+#include "CPP_Enemies.h"
 
 ACPP_MyGameMode::ACPP_MyGameMode()
 {
@@ -26,6 +27,8 @@ ACPP_MyGameMode::ACPP_MyGameMode()
 		DefaultPawnClass = PlayerPawnBPObject.Object->GeneratedClass;
 	}*/
 
+	playerIsSpawned = false;
+	
 }
 
 
@@ -34,17 +37,48 @@ void ACPP_MyGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	FindAllActors();
-	ShowAllActors();
-	ShowAllActorsByClass(TEXT("CPP_PossibleSpawnLocation"));
+	FindAllActors(); ///localizo todos los actores en escena, a partir de aquí, todos los nuevos actores se crearan y destruirán con SpawnAndupdateActors(AActor * actor) y DestroyAndupdateActors(AActor * actor);
+						//para mantener los índices actualizados
+
 	
-	AActor* draft = FindActorByName(TEXT("DirectionalLight"));
+	possibleSpawnLocation_ = FindActorsByClass<ACPP_PossibleSpawnLocation>(TEXT("CPP_PossibleSpawnLocation")); ///Almaceno todas las localizaciones donde spawnear actores.
 
-	if (draft != nullptr)
-		UE_LOG(LogTemp, Warning, TEXT("Encontrado objeto directioanl light %s / %s"), *draft->GetName(),*draft->GetActorNameOrLabel());
+	
+	int enemy;
 
-	TArray<ACPP_PossibleSpawnLocation *> draft2 = FindActorsByClass<ACPP_PossibleSpawnLocation>(TEXT("CPP_PossibleSpawnLocation"));
-	ShowTheseActors<ACPP_PossibleSpawnLocation>(draft2);
+	/// <summary>
+	/// Primero Spawner del Player de forma aleatoria
+	/// </summary>
+	/// 
+
+	int excludeSpawnLocation = FMath::FRandRange(0.0f, possibleSpawnLocation_.Num() - 1); ///localización del Player que será excluida de los spawner aleatorios de los enemigos
+	locationInitialPlayer_ = possibleSpawnLocation_[excludeSpawnLocation]->GetTransform(); 
+	AActor* draft = GetWorld()->SpawnActor<AActor>(DefaultPawnClass, locationInitialPlayer_); ///Spawned en las ubicaciones seleccionados de forma aleatoria
+	SpawnAndupdateActors(draft);
+	possibleSpawnLocation_.RemoveAt(excludeSpawnLocation); ///elimino la localización donde está el player, para que no cuenta en los posibles spawn de enemigos.
+
+	for (int i = 0; i < possibleSpawnLocation_.Num(); i++)
+	{
+		
+		enemy = FMath::FRandRange(0.0f, enemies_.Num());
+								
+		draft = GetWorld()->SpawnActor<AActor>(enemies_[enemy], possibleSpawnLocation_[i]->GetTransform()); ///Spawned en las ubicaciones seleccionados de forma aleatoria
+		SpawnAndupdateActors(draft); ///actualizo listas de Actores.
+
+	}
+
+
+
+	//ShowAllActors();
+	//ShowAllActorsByClass(TEXT("CPP_PossibleSpawnLocation"));
+	
+	//AActor* draft = FindActorByName(TEXT("DirectionalLight"));
+
+	//if (draft != nullptr)
+		//UE_LOG(LogTemp, Warning, TEXT("Encontrado objeto directioanl light %s / %s"), *draft->GetName(),*draft->GetActorNameOrLabel());
+
+	//TArray<ACPP_PossibleSpawnLocation *> draft2 = FindActorsByClass<ACPP_PossibleSpawnLocation>(TEXT("CPP_PossibleSpawnLocation"));
+	//ShowTheseActors<ACPP_PossibleSpawnLocation>(draft2);
 	
 	//FindActorByName()
 	//auto value = UCPP_MyLibrary::Find(TEXT("CPP_PossibleSpawnLocation1"));
