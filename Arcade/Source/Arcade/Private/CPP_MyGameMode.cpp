@@ -59,8 +59,6 @@ void ACPP_MyGameMode::BeginPlay()
 	
 		int excludeSpawnLocation = FMath::FRandRange(0.0f, possibleSpawnLocation_.Num()); ///localización del Player que será excluida de los spawner aleatorios de los enemigos
 		locationInitialPlayer_ = possibleSpawnLocation_[excludeSpawnLocation]->GetTransform();
-		//draft = GetWorld()->SpawnActor<AActor>(DefaultPawnClass, locationInitialPlayer_); ///Spawned en las ubicaciones seleccionados de forma aleatoria
-		//SpawnAndupdateActors(draft);
 		draft = FindActorByName(TEXT("BPD_CharacterCountess"));
 		if (draft != nullptr)
 		{
@@ -84,8 +82,11 @@ void ACPP_MyGameMode::BeginPlay()
 		
 		enemy = FMath::FRandRange(0.0f, enemies_.Num());
 								
-		draft = GetWorld()->SpawnActor<AActor>(enemies_[enemy], possibleSpawnLocation_[i]->GetTransform()); ///Spawned en las ubicaciones seleccionados de forma aleatoria
+		FActorSpawnParameters paramSpawn;
+		paramSpawn.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
+ 		draft = GetWorld()->SpawnActor<AActor>(enemies_[enemy], possibleSpawnLocation_[i]->GetTransform(),paramSpawn); ///Spawned en las ubicaciones seleccionados de forma aleatoria
 		SpawnAndupdateActors(draft); ///actualizo listas de Actores.
+
 
 	}
 	
@@ -136,20 +137,17 @@ void ACPP_MyGameMode::FindAllActors()
 	actorsByTag_.Empty();
 
 	for (int i = 0; i < draft.Num(); i++)
-	{
+	{		
 		actorsByName_.Add(draft[i]->GetActorNameOrLabel(), draft[i]); //Actualizo mapa nombre / actor
 
 		//actulizo map NombredeClase / conjunto actores
-		TSet<AActor*> &draftByClass = actorsByClass_.FindOrAdd(draft[i]->GetClass()->GetName());			
-		draftByClass.Add(draft[i]);
+		actorsByClass_.FindOrAdd(draft[i]->GetClass()->GetName()).Add(draft[i]);
+		
 			
 		
 		//actulizo map Nombredeetiqueta / conjunto actores
 		if (!draft[i]->Tags.IsEmpty())
-		{
-			TSet<AActor*> &draftByTag = actorsByTag_.FindOrAdd(draft[i]->Tags[0].ToString());
-			draftByTag.Add(draft[i]);			
-		}
+			actorsByTag_.FindOrAdd(draft[i]->Tags[0].ToString()).Add(draft[i]);
 
 		allActors_.Add(draft[i]); ///lo convierto en un set ya que será más fácil de administrar y  más rápido en continuas actualizaciones.
 	}
@@ -236,41 +234,60 @@ void ACPP_MyGameMode::ShowAllActorsByTags(FString tag)
 
 void ACPP_MyGameMode::DestroyAndupdateActors(AActor* actor)
 {
-	if (allActors_.Contains(actor))
-		allActors_.Remove(actor);
-	
 
-	if (actorsByClass_.Contains(actor->GetClass()->GetName()))
+	if (actor == nullptr)
 	{
-		if (actorsByClass_[actor->GetClass()->GetName()].Contains(actor))
-			actorsByClass_[actor->GetClass()->GetName()].Remove(actor);
+		UE_LOG(LogTemp, Warning, TEXT("Actor es nullpointer"));
 	}
+	else
 
-	if (!actor->Tags.IsEmpty())
 	{
-		if (actorsByClass_.Contains(actor->Tags[0].ToString()))
+		if (allActors_.Contains(actor))
+			allActors_.Remove(actor);
+
+
+		if (actorsByClass_.Contains(actor->GetClass()->GetName()))
+
 		{
-			if (actorsByClass_[actor->Tags[0].ToString()].Contains(actor))
-				actorsByClass_[actor->Tags[0].ToString()].Remove(actor);
+			if (actorsByClass_[actor->GetClass()->GetName()].Contains(actor))
+				actorsByClass_[actor->GetClass()->GetName()].Remove(actor);
+
+		}
+
+		if (!actor->Tags.IsEmpty())
+		{
+			if (actorsByClass_.Contains(actor->Tags[0].ToString()))
+			{
+				if (actorsByClass_[actor->Tags[0].ToString()].Contains(actor))
+					actorsByClass_[actor->Tags[0].ToString()].Remove(actor);
+			}
+
 		}
 
 	}
 
 }
 
-void ACPP_MyGameMode::SpawnAndupdateActors(AActor* actor)
+void ACPP_MyGameMode::SpawnAndupdateActors(AActor*  actor)
 {
-	allActors_.Add(actor);
-	
-	TSet<AActor*>& draftByClass = actorsByClass_.FindOrAdd(actor->GetClass()->GetName());
-	draftByClass.Add(actor);
+	if (actor == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Actor es nullpointer"));
+	}
+		
+	else
+	{
+		allActors_.Add(actor);
+		actorsByName_.Add(actor->GetActorNameOrLabel(), actor); //Actualizo mapa nombre / actor
+		actorsByClass_.FindOrAdd(actor->GetClass()->GetName()).Add(actor);
 
 	//actulizo map Nombredeetiqueta / conjunto actores
 	if (!actor->Tags.IsEmpty())
-	{
-		TSet<AActor*> &draftByTag = actorsByTag_.FindOrAdd(actor->Tags[0].ToString());
-		draftByTag.Add(actor);
+		actorsByTag_.FindOrAdd(actor->Tags[0].ToString()).Add(actor);
+
+
 	}
+		
 
 
 }

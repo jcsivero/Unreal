@@ -38,9 +38,6 @@ public:
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = " Enemies")
 	TArray<class ACPP_PossibleSpawnLocation *> possibleSpawnLocation_;
 
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = " Enemies")
-	bool playerIsSpawnedByDefault_;
-
 	/// <summary>
 	/// Actpres actualmente en el nivel activo.
 	/// </summary>
