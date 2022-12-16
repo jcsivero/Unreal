@@ -16,6 +16,8 @@ ACPP_CharacterCountess::ACPP_CharacterCountess()
  	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 	bUseControllerRotationYaw = false;
+	bFightSoft_ = false;
+	bFightHard_ = false;
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	// Create a camera boom (pulls in towards the player if there is a collision)
@@ -67,7 +69,13 @@ void ACPP_CharacterCountess::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	//PlayerInputComponent->BindAxis("Turn Right / Left Gamepad", this, &AAnimacion3dCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("Look Up / Down Mouse", this, &APawn::AddControllerPitchInput);
 	//PlayerInputComponent->BindAxis("Look Up / Down Gamepad", this, &AAnimacion3dCharacter::LookUpAtRate);
-
+	
+	PlayerInputComponent->BindAction("FightSoft",IE_Pressed, this, &ACPP_CharacterCountess::FightSoft);
+	PlayerInputComponent->BindAction("FightSoft", IE_Released, this, &ACPP_CharacterCountess::FightSoft);
+	PlayerInputComponent->BindAction("FightHard", IE_Pressed, this, &ACPP_CharacterCountess::FightHard);
+	PlayerInputComponent->BindAction("FightHard", IE_Released, this, &ACPP_CharacterCountess::FightHard);
+	
+	
 	// handle touch devices
 	//PlayerInputComponent->BindTouch(IE_Pressed, this, &AAnimacion3dCharacter::TouchStarted);
 	//PlayerInputComponent->BindTouch(IE_Released, this, &AAnimacion3dCharacter::TouchStopped);
@@ -75,6 +83,16 @@ void ACPP_CharacterCountess::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 }
 
+void ACPP_CharacterCountess::FightSoft()
+{
+	bFightSoft_ = !bFightSoft_;
+}
+
+void ACPP_CharacterCountess::FightHard()
+{
+	bFightHard_ = !bFightHard_;
+	
+}
 
 void ACPP_CharacterCountess::TurnAtRate(float Rate)
 {
