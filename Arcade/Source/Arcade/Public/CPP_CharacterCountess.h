@@ -19,15 +19,17 @@ class ARCADE_API ACPP_CharacterCountess : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent * FollowCamera;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	bool bFightSoft_;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	bool bFightHard_;
-
 public:
+
 	// Sets default values for this character's properties
 	ACPP_CharacterCountess();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		bool bFightSoft_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Fight, meta = (AllowPrivateAccess = "true"))
+		bool bFightHard_;
+
 
 protected:
 

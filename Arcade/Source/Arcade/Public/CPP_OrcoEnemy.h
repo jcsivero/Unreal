@@ -13,5 +13,11 @@ UCLASS()
 class ARCADE_API ACPP_OrcoEnemy : public ACPP_Enemies
 {
 	GENERATED_BODY()
+public:
 	
+	ACPP_OrcoEnemy();
+	void BeginPlay() override;
+	UFUNCTION()
+	void OnOverlap(AActor* me, AActor* other);
+			
 };
