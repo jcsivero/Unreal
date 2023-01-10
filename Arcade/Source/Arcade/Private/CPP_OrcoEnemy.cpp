@@ -33,3 +33,29 @@ void ACPP_OrcoEnemy::OnOverlap(AActor* me, AActor* other)
 		
 }
 
+/*void AMyActor::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UPrimitiveComponent* AnyComponent = ...;
+	// AnyComponent puede ser un BoxComponent,
+	// SphereComponent, CapsuleComponent,
+	// StaticMeshComponent y, en definitiva,
+	// cualquier componente que herede de PrimitiveComponent
+
+	AnyComponent->bGenerateOverlapEvents = true;
+	AnyComponent->OnComponentBeginOverlap.AddDynamic(this, &AMyActor::OnCustomEvent_BeginOverlap);
+
+	AnyComponent->SetNotifyRigidBodyCollision(true); // Simulation Generate Hit Events
+	AnyComponent->OnComponentHit.AddDynamic(this, &AMyActor::OnCustomEvent_OnHit);
+}
+
+void AMyActor::OnCustomEvent_OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+
+}
+
+void AMyActor::OnCustomEvent_BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+
+}*/
