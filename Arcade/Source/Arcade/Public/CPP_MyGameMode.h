@@ -35,6 +35,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 	TArray<TSubclassOf<class ACPP_Enemies>> enemies_;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
+		TArray<TSubclassOf<UBlueprint>> enemies2_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
+		UClass * enemies3_;
+
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = " Enemies")
 	TArray<class ACPP_PossibleSpawnLocation *> possibleSpawnLocation_;
 

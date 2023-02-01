@@ -22,11 +22,11 @@ ACPP_MyGameMode::ACPP_MyGameMode()
 	}
 	
 
-	/*static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
+	static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
 	if (PlayerPawnBPObject.Object != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPObject.Object->GeneratedClass;
-	}*/
+	}
 
 
 	
