@@ -40,9 +40,16 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 		UClass * enemies3_;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
+		UBlueprint * enemies4_;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
+		UStaticMesh* enemies5_;
 
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = " Enemies")
 	TArray<class ACPP_PossibleSpawnLocation *> possibleSpawnLocation_;
+
+
 
 	/// <summary>
 	/// Actpres actualmente en el nivel activo.
