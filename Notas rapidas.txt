@@ -8,3 +8,5 @@ if (PlayerPawnBPObject.Object != NULL)
 		
 
 static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BPD/BPD_CharacterCountess"));
+
+UKismetSystemLibrary::PrintString(); o GEngine->AddOnScreenDebugMessage();

@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"H:/git/Unreal/Arcade/Content/Maps/Arcade.umap",
+				"H:/git/Unreal/Arcade/Content/BPD/BPD_MyGameMode.uasset",
+				"H:/git/Unreal/Arcade/Content/BPD/BPD_CharacterCountess.uasset"
+			]
+		}
+	]
+}
