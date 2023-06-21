@@ -24,15 +24,21 @@ public:
 	// Sets default values for this character's properties
 	ACPP_CharacterCountess();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Fight, meta = (AllowPrivateAccess = "true"))
 		bool bFightSoft_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Fight, meta = (AllowPrivateAccess = "true"))
 		bool bFightHard_;
 
+	
+		
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap, meta = (AllowPrivateAccess = "true"))
+		AActor* actorOverlap_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap, meta = (AllowPrivateAccess = "true"))
+		bool bOverlap_;
 protected:
-
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
 
@@ -65,11 +71,12 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	UFUNCTION(BlueprintCallable)
+	float Angle(FVector v1, FVector v2); ///calcula el ángulo entre dos vectores
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-};
+	};
 

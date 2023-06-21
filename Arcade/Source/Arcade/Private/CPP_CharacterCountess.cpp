@@ -41,6 +41,16 @@ void ACPP_CharacterCountess::BeginPlay()
 		
 }
 
+
+
+float ACPP_CharacterCountess::Angle(FVector v1, FVector v2)
+{
+	float AngleCosine = FVector::DotProduct(v1, v2) / (v1.Size() * v2.Size());
+	float AngleRadians = FMath::Acos(AngleCosine);
+	return FMath::RadiansToDegrees(AngleRadians);
+	
+}
+
 // Called every frame
 void ACPP_CharacterCountess::Tick(float DeltaTime)
 {
