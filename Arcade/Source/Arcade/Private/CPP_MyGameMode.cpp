@@ -22,11 +22,11 @@ ACPP_MyGameMode::ACPP_MyGameMode()
 	}*/
 	
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
+	/*static ConstructorHelpers::FObjectFinder<UBlueprint> PlayerPawnBPObject(TEXT("Blueprint'/Game/BPD/BPD_CharacterCountess'"));
 	if (PlayerPawnBPObject.Object != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPObject.Object->GeneratedClass;
-	}
+	}*/
 
 	
 	
@@ -59,7 +59,7 @@ void ACPP_MyGameMode::BeginPlay()
 	
 		int excludeSpawnLocation = FMath::FRandRange(0.0f, possibleSpawnLocation_.Num()); ///localización del Player que será excluida de los spawner aleatorios de los enemigos
 		locationInitialPlayer_ = possibleSpawnLocation_[excludeSpawnLocation]->GetTransform();
-		draft = FindActorByName(TEXT("BPD_CharacterCountess"));
+		/*draft = FindActorByName(TEXT("BPD_CharacterCountess"));
 		if (draft != nullptr)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("encontrado"));
@@ -70,7 +70,7 @@ void ACPP_MyGameMode::BeginPlay()
 		{
 			UE_LOG(LogTemp, Warning, TEXT("NO encontrado"));
 		}
-			
+			*/
 
 		possibleSpawnLocation_.RemoveAt(excludeSpawnLocation); ///elimino la localización donde está el player, para que no cuenta en los posibles spawn de enemigos.
 
