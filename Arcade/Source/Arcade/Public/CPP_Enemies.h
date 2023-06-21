@@ -13,6 +13,7 @@ class ARCADE_API ACPP_Enemies : public ACharacter
 	GENERATED_BODY()
 
 public:
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
 		bool bFightSoft_;
 
