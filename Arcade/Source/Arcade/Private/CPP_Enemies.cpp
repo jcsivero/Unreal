@@ -27,6 +27,11 @@ float ACPP_Enemies::Angle(FVector v1, FVector v2)
 	return FMath::RadiansToDegrees(AngleRadians);
 }
 
+void ACPP_Enemies::UpdateWidget_Implementation()
+{
+}
+
+
 // Called every frame
 void ACPP_Enemies::Tick(float DeltaTime)
 {

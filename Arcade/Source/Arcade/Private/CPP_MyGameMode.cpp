@@ -39,8 +39,8 @@ void ACPP_MyGameMode::BeginPlay()
 {	
 	Super::BeginPlay();
 
-//	AActor* draft;
-	//int enemy;
+	AActor* draft;
+	int enemy;
 	
 	FindAllActors(); ///localizo todos los actores en escena, a partir de aquí, todos los nuevos actores se crearan y destruirán con SpawnAndupdateActors(AActor * actor) y DestroyAndupdateActors(AActor * actor);
 	//para mantener los índices actualizados
@@ -77,7 +77,7 @@ void ACPP_MyGameMode::BeginPlay()
 //	}
 	
 
-	/*for (int i = 0; i < possibleSpawnLocation_.Num(); i++)
+	for (int i = 0; i < possibleSpawnLocation_.Num(); i++)
 	{
 		
 		enemy = FMath::FRandRange(0.0f, enemies_.Num());
@@ -89,7 +89,7 @@ void ACPP_MyGameMode::BeginPlay()
 
 
 	}
-	*/
+	
 
 
 

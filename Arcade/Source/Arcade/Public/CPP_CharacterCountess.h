@@ -44,6 +44,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap, meta = (AllowPrivateAccess = "true"))
 		bool bOverlap_;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
+		float health_ = 25;
 protected:
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

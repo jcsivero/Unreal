@@ -34,7 +34,8 @@ public:
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
 	float damage_ = 25;
-	
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
+	float health_ = 25;
 public:
 
 
@@ -49,6 +50,10 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	float Angle(FVector v1, FVector v2); ///calcula el ángulo entre dos vectores
+
+	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
+	void UpdateWidget();
+	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
