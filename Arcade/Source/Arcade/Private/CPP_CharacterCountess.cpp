@@ -43,7 +43,7 @@ void ACPP_CharacterCountess::BeginPlay()
 
 
 
-float ACPP_CharacterCountess::Angle(FVector v1, FVector v2)
+float ACPP_CharacterCountess::Angle(FVector v1, FVector v2) ///angulo solo en ejes x e y
 {
 	v1.Z = 0;
 	v2.Z = 0;

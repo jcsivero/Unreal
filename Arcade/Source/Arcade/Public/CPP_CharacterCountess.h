@@ -34,10 +34,10 @@ public:
 		bool applyDamage_ = false;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	float life_ = 100;
+	float life_ = 1;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	float damage_ = 25;
+	float damage_ = 0.3;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap)
 		AActor* actorOverlap_;
@@ -46,7 +46,7 @@ public:
 		bool bOverlap_;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-		float health_ = 25;
+		float amountPower = 0.0f;
 protected:
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);

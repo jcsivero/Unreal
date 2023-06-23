@@ -39,7 +39,7 @@ void ACPP_MyGameMode::BeginPlay()
 {	
 	Super::BeginPlay();
 
-	AActor* draft;
+AActor* draft;
 	int enemy;
 	
 	FindAllActors(); ///localizo todos los actores en escena, a partir de aquí, todos los nuevos actores se crearan y destruirán con SpawnAndupdateActors(AActor * actor) y DestroyAndupdateActors(AActor * actor);
@@ -88,8 +88,7 @@ void ACPP_MyGameMode::BeginPlay()
 		SpawnAndupdateActors(draft); ///actualizo listas de Actores.
 
 
-	}
-	
+	}	
 
 
 

@@ -30,12 +30,11 @@ public:
 		AActor* actorOverlap_;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	float life_ = 100;
+	float life_ = 1;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	float damage_ = 25;
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
-	float health_ = 25;
+	float damage_ = 0.1;
+	
 public:
 
 
