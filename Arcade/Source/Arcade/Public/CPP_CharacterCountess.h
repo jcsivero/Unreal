@@ -30,6 +30,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Fight, meta = (AllowPrivateAccess = "true"))
 		bool bFightHard_;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Fight)
+		bool applyDamage_ = false;
+
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = Fight, meta = (AllowPrivateAccess = "true"))
 	float life_ = 100;
 

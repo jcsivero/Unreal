@@ -22,6 +22,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap, meta = (AllowPrivateAccess = "true"))
 		bool bOverlap_;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Fight)
+		bool applyDamage_ = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Overlap, meta = (AllowPrivateAccess = "true"))
 		AActor* actorOverlap_;

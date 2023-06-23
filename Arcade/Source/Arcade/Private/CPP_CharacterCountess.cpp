@@ -45,6 +45,8 @@ void ACPP_CharacterCountess::BeginPlay()
 
 float ACPP_CharacterCountess::Angle(FVector v1, FVector v2)
 {
+	v1.Z = 0;
+	v2.Z = 0;
 	float AngleCosine = FVector::DotProduct(v1, v2) / (v1.Size() * v2.Size());
 	float AngleRadians = FMath::Acos(AngleCosine);
 	return FMath::RadiansToDegrees(AngleRadians);
