@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/git/Unreal/Arcade/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/git/Unreal/Arcade/Content/BPD/BPD_CharacterCountess.uasset",
+				"C:/git/Unreal/Arcade/Content/Maps/Arcade.umap",
+				"C:/git/Unreal/Arcade/Content/UI/BP_Hud.uasset",
+				"C:/git/Unreal/Arcade/Content/BP/BP_Life.uasset",
+				"C:/git/Unreal/Arcade/Content/Maps/Untitled.umap",
+				"C:/git/Unreal/Arcade/Content/Maps/Arcade_BuiltData.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/EmissiveBlue.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/EmissiveGreen.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset",
+				"C:/git/Unreal/Arcade/Content/BP/BP_Power.uasset",
+				"C:/git/Unreal/Arcade/Content/Materials/EmissiveGreen.uasset",
+				"C:/git/Unreal/Arcade/Content/Materials/EmissiveBlue.uasset",
+				"C:/git/Unreal/Arcade/Content/UI/Hud.uasset",
+				"C:/git/Unreal/Arcade/Content/ParagonRampage/Characters/Heroes/Rampage/ShinbiPlayerCharacter.uasset"
+			]
+		}
+	]
+}
