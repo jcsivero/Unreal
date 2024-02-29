@@ -16,7 +16,7 @@ ACPP_CharacterCountess::ACPP_CharacterCountess()
  	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 	bUseControllerRotationYaw = false;
-	bFightSoft_ = false;
+	bFightSoft_ = false;	
 	bFightHard_ = false;
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
